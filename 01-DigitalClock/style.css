@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-image: url('https://cdn.pixabay.com/photo/2017/11/02/12/07/hourglass-2910948__340.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    overflow: hidden;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+}
+
+.clock {
+    display: flex;
+    position: relative;
+}
+
+.clock div {
+    margin: 5px;
+}
+
+.clock div span {
+    width: 100px;
+    height: 80px;
+    background-color: slateblue;
+    opacity: 0.8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.clock div .text {
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    background: darkblue;
+    opacity: 0.8;
+}
+
+.clock div #am-pm {
+    bottom: 5px;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background: green;
+}
